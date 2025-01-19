@@ -9,8 +9,17 @@ const userSchema=new Schema({
   lastName: String
 });
 
+const todoSchema=new Schema({
+  title: String,
+  done: String,
+  userId: ObjectId,
+  
+});
+
 const userModel= mongoose.model("user",userSchema);
+const todoModel= mongoose.model("todo", todoSchema);
 
 module.exports={
   userModel,
+  todoModel
 }
