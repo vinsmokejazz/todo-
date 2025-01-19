@@ -2,7 +2,9 @@
   "dependencies": {
     "express": "^4.21.2",
     "mongoose": "^8.9.5",
-    "node": "^22.13.0"
+    "node": "^22.13.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
   },
   "name": "todo-list",
   "version": "1.0.0",
